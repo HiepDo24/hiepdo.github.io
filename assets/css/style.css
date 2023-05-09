@@ -391,25 +391,119 @@ img {
 }
 
 /*==================== SKILLS ====================*/
+.skills__container{
+    row-gap: 0;
+}
 
+.skills__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
 
-/*==================== QUALIFICATION ====================*/
+.skills__icon,
+.skills__arrow{
+    font-size: 2rem;
+    color: var(--first-color);
+}
 
+.skills__icon{
+    margin-right: var(--mb-0-75);
+}
 
-/*==================== SERVICES ====================*/
+.skills__title{
+    font-size: var(--h3-font-size);
+}
 
+.skills__subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light)
+}
 
-/* Active Modal */
+.skills__arrow{
+    margin-left: auto;
+    transition: .4s;
+}
 
+.skills__list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
+.skills__titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills__bar{
+    background-color: var(--first-color-lighter);
+}
+
+.skills__percentage{
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills__html{
+    width: 95%;
+}
+.skills__css{
+    width: 90%;
+}
+.skills__js{
+    width: 75%;
+}
+.skills__react{
+    width: 65%;
+}
+
+.skills__php{
+    width: 70%;
+}
+.skills__nodejs{
+    width: 90%;
+}
+.skills__angularjs{
+    width: 30%;
+}
+.skills__django{
+    width: 80%;
+}
 
 /*==================== PORTFOLIO ====================*/
+.portfolio__container{
+    overflow: initial;
+}
 
+.portfolio__content{
+    padding: 0 1.5rem;
+}
 
-/*==================== PROJECT IN MIND ====================*/
+.portfolio__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
 
+.portfolio__description{
+    margin-bottom: var(--mb-0-75);
+}
 
-/*==================== TESTIMONIAL ====================*/
-
+.portfolio__button:hover .button__icon{
+    transform: translateX(.25rem);
+}
 
 /*==================== CONTACT ME ====================*/
 .contact__container{
